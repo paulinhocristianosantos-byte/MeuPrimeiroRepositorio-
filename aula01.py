@@ -7,17 +7,13 @@ ativo = True
 # exibindo os valores 
 print(curso, alunos, ativo)
 
-print("Digite um valor:")
-teste = input()
-print(type(teste))
-dobro = int(teste) *2
-print("Resultado:", dobro)
+valor = float(input("Digite um valor de acordo com o seu desejo:"))
+desejo = input("Digite o seu maior desejo:")
+if valor >= 1.000 or valor <= 2.000 and valor < 1.000:
+    print("Seu desejo sera atendido!")
+elif valor > 2.000 and valor <= 3.000:
+    print("Seu deseja passara por analise!")
+elif valor > 3.000: 
+ print("Seu desejo esta acima do esperado, tente outra vez!")
 
-idade = int(input("Sua idade:"))
-print(type(idade))
-print("Sua idade é:", idade)
-# agora idade é um numero inteiro!
 
-#Codigo exercicio_aula pv:
-nome_produto = input("Digite o nome do produto")
-valor_produto = float(input("Digite o valor do produto:"))
